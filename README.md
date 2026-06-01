@@ -18,10 +18,10 @@ This project contains two fully interactive Tableau dashboards built to help **s
 ## 🖼️ Dashboard Previews
 
 ### Sales Dashboard
-![Sales Dashboard Preview](images/sales_dashboard_preview.png)
+![Sales Dashboard Preview](images/Sales_Dashboard_Preview.png)
 
 ### Customer Dashboard
-![Customer Dashboard Preview](images/customer_dashboard_preview.png)
+![Customer Dashboard Preview](images/Customer_Dashboard_Preview.png)
 
 ---
 
