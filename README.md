@@ -1,102 +1,130 @@
-# 📊 Sales Performance Dashboards
+# 📊 Sales & Customer Performance Dashboards | Tableau
 
-> **User Story | Sales Performance**  
-> This project outlines the specifications for building two dashboards in Tableau to help stakeholders — including sales managers and executives — analyze sales performance and customer behavior.
-
----
-
-## 🚀 Introduction
-This repository contains two interactive Tableau dashboards:
-- **Sales Dashboard** → Focused on KPIs, trends, and product comparisons
-- **Customer Dashboard** → Focused on customer segments, loyalty, and profitability
+> Interactive Tableau dashboards providing deep insights into sales performance and customer behavior — with year-over-year comparisons, trend analysis, and dynamic filtering.
 
 ---
 
-## 📈 Sales Dashboard | Requirements
+## 📌 Project Overview
 
-### Dashboard Purpose
-The purpose of the sales dashboard is to present an overview of sales metrics and trends in order to analyze year‑over‑year performance and understand sales trends.
+This project contains two fully interactive Tableau dashboards built to help **sales managers**, **marketing teams**, and **executives** analyze business performance and customer segments.
 
-### Key Requirements
-- **KPI Overview**  
-  Display a summary of total sales, profits, and quantity for the current year and the previous year.
-
-- **Sales Trends**  
-  – Present KPI data monthly for current and previous year  
-  – Identify months with highest and lowest sales
-
-- **Product Subcategory Comparison**  
-  – Compare sales performance by subcategory (YoY)  
-  – Include comparison of sales vs profit
-
-- **Weekly Trends for Sales & Profit**  
-  – Present weekly sales and profit data for the current year  
-  – Display average weekly values  
-  – Highlight weeks above/below average
+| Dashboard | Purpose |
+|---|---|
+| 🛒 Sales Dashboard | Year-over-year sales metrics, trends, and product performance |
+| 👥 Customer Dashboard | Customer behavior, order patterns, and top customer profitability |
 
 ---
 
-## 👥 Customer Dashboard | Requirements
+## 🖼️ Dashboard Previews
 
-### Dashboard Purpose
-The customer dashboard provides an overview of customer data, trends, and behaviors. It helps marketing teams and management understand customer segments and improve satisfaction.
+### Sales Dashboard
+![Sales Dashboard Preview](images/sales_dashboard_preview.png)
 
-### Key Requirements
-- **KPI Overview**  
-  Display total number of customers, sales per customer, and total orders (YoY).
-
-- **Customer Trends**  
-  – Present KPI data monthly for current and previous year  
-  – Identify months with highest and lowest sales
-
-- **Customer Distribution by Number of Orders**  
-  Represent distribution of customers based on orders placed to show behavior, loyalty, and engagement.
-
-- **Top 10 Customers by Profit**  
-  – Show top 10 customers generating highest profits  
-  – Include rank, number of orders, current sales, current profit, and last order date
+### Customer Dashboard
+![Customer Dashboard Preview](images/customer_dashboard_preview.png)
 
 ---
 
-## 🎨 Design & Interactivity Requirements
-- **Dashboard Dynamic**  
-  – Allow users to select any desired year  
-  – Provide easy navigation between dashboards  
-  – Make charts interactive with filters
+## 🔗 Live Demo
 
-- **Data Filters**  
-  Allow filtering by product (category, subcategory) and location (region, state, city).
+👉 https://public.tableau.com/app/profile/nikil.prakash/viz/SalesCustomerDashboards_17791111984370/CustomerDashboard
 
 ---
 
-## 🗂 Repository Structure
+## 📋 Dashboard Requirements
 
-sales-performance-dashboard/
+### 🛒 Sales Dashboard
+
+#### KPI Overview
+- Total **Sales**, **Profit**, and **Quantity** for the current year vs. previous year
+
+#### Sales Trends
+- Monthly KPI data for both current and previous year
+- Highlighted months with the **highest and lowest sales**
+
+#### Product Subcategory Comparison
+- Sales performance by product subcategory (current vs. previous year)
+- Side-by-side comparison of **sales vs. profit**
+
+#### Weekly Trends for Sales & Profit
+- Weekly sales and profit data for the current year
+- Average weekly value reference line
+- Weeks **above/below average** visually highlighted
+
+---
+
+### 👥 Customer Dashboard
+
+#### KPI Overview
+- Total **number of customers**, **sales per customer**, and **total orders** (current vs. previous year)
+
+#### Customer Trends
+- Monthly KPI data for both current and previous year
+- Highlighted months with the **highest and lowest values**
+
+#### Customer Distribution by Number of Orders
+- Distribution chart showing how customers are segmented by order frequency
+- Insights into **loyalty, behavior, and engagement**
+
+#### Top 10 Customers by Profit
+- Ranked table of the top 10 most profitable customers
+- Columns: Rank, Customer Name, Number of Orders, Current Sales, Current Profit, Last Order Date
+
+---
+
+## ⚙️ Design & Interactivity
+
+| Feature | Details |
+|---|---|
+| 📅 Year Selector | Users can switch between any historical year |
+| 🔄 Dashboard Navigation | Easy navigation between Sales and Customer dashboards |
+| 🖱️ Interactive Charts | Charts act as filters — click to drill down |
+| 🔍 Data Filters | Filter by **Category**, **Subcategory**, **Region**, **State**, and **City** |
+
+---
+
+## 📁 Repository Structure
+
+```
+tableau-sales-performance-dashboard/
 │
-├── README.md                # Project overview
-├── docs/                    # Documentation (user story, requirements, design notes)
-├── dashboards/              # Tableau packaged workbooks (.twbx)
-├── data/                    # Raw + processed datasets
-├── images/                  # Dashboard screenshots
-└── scripts/                 # Preprocessing scripts
-
-
----
-
-## 🛠 How to Use
-1. Open the `.twbx` files in Tableau Public.
-2. Use the provided datasets in `data/` for replication.
-3. Explore dashboards interactively with filters and navigation.
+├── README.md
+├── Sales_Performance_Dashboard.twbx     # Tableau Packaged Workbook
+├── /images
+│   ├── sales_dashboard_preview.png
+│   └── customer_dashboard_preview.png
+└── /datasets
+    └── eu_data.xlsx             # Source dataset
+```
 
 ---
 
-## 📜 License
-MIT License — free to use and adapt.
+## 🛠️ Tools & Technologies
 
-## About me
+- **Tableau Desktop / Tableau Public** — Dashboard design and publishing
 
-Data Analyst focused on data engineering and business intelligence.
-this project demonstrates is the ability to translate business requirements into interactive Tableau dashboards that deliver clear, KPI‑driven insights.  
-From data preparation and visualization to professional documentation — tailored for decision‑making in fast‑moving industries.
-💼 LinkedIn: [linkedin.com/in/nikilprakash](https://linkedin.com/in/nikilprakash)  
-📧 Open to Data Analyst & Business Analyst roles in financial services.
+---
+
+## 🚀 How to Use
+
+1. **Download** the `.twbx` file from this repository
+2. Open it with **Tableau Public** 
+3. Use the **Year filter** to switch between years
+4. Use the **navigation buttons** to switch between dashboards
+5. Apply **category, subcategory, region, state, or city filters** as needed
+6. Click on any chart element to **cross-filter** the dashboard
+
+---
+
+## 👤 Author
+
+**Nikil Prakash**
+- GitHub: [@Nikilprakash](https://github.com/Nikilprakash)
+- LinkedIn: [Nikil Prakash](https://www.linkedin.com/in/nikilprakash/)
+- Tableau Public: https://public.tableau.com/app/profile/nikil.prakash/vizzes(#)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
