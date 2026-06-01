@@ -121,7 +121,7 @@ tableau-sales-performance-dashboard/
 **Nikil Prakash**
 - GitHub: [@Nikilprakash](https://github.com/Nikilprakash)
 - LinkedIn: [Nikil Prakash](https://www.linkedin.com/in/nikilprakash/)
-- Tableau Public: https://public.tableau.com/app/profile/nikil.prakash/vizzes(#)
+- Tableau Public: https://public.tableau.com/app/profile/nikil.prakash/vizzes
 
 ---
 
